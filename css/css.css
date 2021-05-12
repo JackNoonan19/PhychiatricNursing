@@ -1,1 +1,341 @@
+body{
+    background-color:#10002B;
+ 
+    
+}
+
+
+
+nav {
+  background-color: #3C096C;
+  overflow: hidden;
+}
+
+
+nav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding:  16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+nav a:hover {
+  background-color: #5A189A;
+  color: white;
+}
+
+
+nav a.active {
+  background-color: #C77DFF;
+  color: white;
+}
+
+h2 {
+    color:white;
+    text-align: center;
+    background-color: #240046;
+    
+}
+main {
+    
+}
+p {
+    color: white;
+     font-family: "Georgia Pro", Georgia, "Times New Roman", Times, serif;
+    font-size: 1.4em;
+}
+.pagetext {
+    color:white;
+   padding-left: 100px;
+    padding-top: 50px;
+    padding-right:100px;
+   
+}
+
+ul {
+   font-size: 25px; 
+}
+
+
+
+
+#bgimage1 {
+       background-image: url("../images/background.png"); /* source link https://www.pexels.com/photo/man-people-woman-writing-6129147/ */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#bgimage2 {
+       background-image: url("../images/bg2.png"); /* source link https://www.pexels.com/photo/photo-of-woman-resting-on-the-couch-4270365/ */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#bgimage3 {
+       background-image: url("../images/bg3.png"); /* source link https://www.pexels.com/photo/woman-in-white-long-sleeve-shirt-sitting-on-green-grass-field-6147276/ */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#bgimage4 {
+       background-image: url("../images/bg4.png"); /* source link https://www.pexels.com/photo/woman-reading-book-256455/ */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+
+
+.left{
+    float: left;
+    
+}
+.right{
+    float: right;
+    
+}
+
+
+
+
+
+
+
+
+
+
+.hometext {
+    
+}
+
+
+article {
+    padding-top: 100px;
+}
+
+.extended {
+    color: #E0AAFF;
+    
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #3C096C;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+.imagereel {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+
+
+/* Hide the images by default */
+.images {
+  display: block;
+}
+.bimages {
+  display: block;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #3C096C;
+    opacity: 50%;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  font-size: 12px;
+  padding: 20px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 1s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/* Style the submit button */
+button {
+  float: right;
+  width: 10%;
+  padding: 10px;
+  margin-right: 50px;
+  background: #C77DFF;
+  color:#5A189A ;
+  font-size: 15px;
+  border: 1px solid #7B2CBF;
+  border-left: none; /* Prevent double borders */
+border-radius: 20px;
+  cursor: pointer;
+}
+
+ button:hover {
+  background: #E0AAFF;
+}
+
+
+
+
+.modules {
+     float: right;
+  width: 5%;
+  padding: 1px;
+  margin-right: 5px;
+  background: #C77DFF;
+ 
+  font-size: 15px;
+  border: 1px;
+  border-left: none; /* Prevent double borders */
+border-radius: 15px;
+  cursor: pointer; 
+}
+
+
+.modulesextra{
+    display: none;
+}
+
+#mymodule1 {
+    display:none;
+}
+#mymodule2{
+    display:none;
+}
+#mymodule3{
+    display:none;
+}
+#mymodule4{
+    display:none;
+}
+#mymodule5{
+    display:none;
+}
+#mymodule6{
+    display:none;
+}
+#mymodule7 {
+    display:none;
+}
+#mymodule8 {
+    display:none;
+}
+#mymodule9 {
+    display:none;
+}
+#mymodule10 {
+    display:none;
+}
+#mymodule11 {
+    display:none;
+}
+#mymodule12 {
+    display:none;
+}
+#mymodule13 {
+    display:none;
+}
+#mymodule14 {
+    display:none;
+}
+#mymodule15 {
+    display:none;
+}
+#mymodule16 {
+    display:none;
+}
+
+
+
 
